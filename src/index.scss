@@ -14,7 +14,7 @@ body {
     background-color: $color-bg;
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow-x: hidden;
 }
 
@@ -29,7 +29,7 @@ h2 {
     color: $color-primary;
     font-family: audiowide;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h3 {
@@ -51,7 +51,7 @@ h3 {
 p {
     color: $color-text-primary;
     font-family: 'space grotesk';
-    font-size: 22.5px;
+    font-size: 20px;
     font-weight: 100;
 }
 
@@ -83,6 +83,11 @@ button {
     border: none;
     margin: auto;
     padding: 0;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
 }
 
 div {
