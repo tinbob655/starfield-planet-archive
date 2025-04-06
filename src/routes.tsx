@@ -3,6 +3,8 @@ import {Routes, Route} from 'react-router-dom';
 
 //import all pages
 import Home from './components/pages/home/home';
+import PlanetFinder from './components/pages/planetFinder/planetFinder';
+import OutpostPlanner from './components/pages/outpostPlanner/outpostPlanner';
 
 export default function AllRoutes():React.ReactElement {
 
@@ -16,6 +18,8 @@ export default function AllRoutes():React.ReactElement {
 
         const pages:Record<string, React.ReactElement> = {
             home: <Home/>,
+            planetFinder: <PlanetFinder/>,
+            outpostPlanner: <OutpostPlanner/>,
         };
 
         let routesHTML:React.ReactElement[] = [];
