@@ -1,5 +1,5 @@
 import React from 'react';
-import PageHeader from '../../multiPageComponents/pageHeader.jsx';
+import PageHeader from '../../multiPageComponents/pageHeader.tsx';
 import { Link } from 'react-router-dom';
 
 export default function Home():React.ReactElement {
