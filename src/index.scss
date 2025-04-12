@@ -108,4 +108,21 @@ div {
         background-color: $color-surface;
         border-radius: 10px;
     }
+
+    &.dropDownWrapper {
+
+        background-color: $color-surface;
+        border: 5px solid $color-border;
+        border-radius: 10px;
+
+        transform: scale(1, 0);
+        transform-origin: 50% 0;
+        transition-property: transform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+
+        &.shown {
+            transform: scale(1, 1);
+        }
+    }
 }
